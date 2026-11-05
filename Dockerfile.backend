@@ -14,6 +14,6 @@ COPY . .
 
 EXPOSE 9000 5173
 
-# Langsung pindah ke folder backend dan jalankan dev server
+# Masuk langsung ke folder backend dan jalankan perintah medusa
 WORKDIR /server/apps/backend
-CMD ["pnpm", "dev"]
+CMD ["pnpm", "medusa", "develop"]
