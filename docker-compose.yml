@@ -47,7 +47,7 @@ services:
     expose:
       - "8000"
     environment:
-      - NEXT_PUBLIC_MEDUSA_BACKEND_URL=https://api-toko.oplay.id   # Sesuaikan domain backend Anda di NPM
+      - NEXT_PUBLIC_MEDUSA_BACKEND_URL=https://api-toko.oplay.id
     networks:
       - npm_default
 
